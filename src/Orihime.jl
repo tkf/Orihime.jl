@@ -1,10 +1,21 @@
 baremodule Orihime
 
+macro plot end
+
+function cleanup end
+function readablestring end
+
 module Internal
 
+import ..Orihime: @plot
 using ..Orihime: Orihime
 
-include("internal.jl")
+import VegaLite
+using DataFrames: DataFrames, DataFrame
+
+include("utils.jl")
+include("cleanup.jl")
+include("plot.jl")
 
 end  # module Internal
 

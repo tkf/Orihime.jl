@@ -1,0 +1,12 @@
+name = "OrihimeTests"
+uuid = "0d3ec76d-bbba-4425-a4fe-4e2b94030c8b"
+authors = ["Takafumi Arakaki <aka.tkf@gmail.com> and contributors"]
+version = "0.1.0-DEV"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Orihime = "377fe491-a7cd-4fe2-889a-b15ed48b0c90"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1"
